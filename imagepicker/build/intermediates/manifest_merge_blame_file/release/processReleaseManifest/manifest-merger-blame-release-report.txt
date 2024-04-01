@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.example.imagepicker" >
+5
+6    <uses-sdk android:minSdkVersion="21" />
+7
+8    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+8-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:5:5-75
+8-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:5:22-73
+9    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+9-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:6:5-74
+9-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:6:22-72
+10    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+10-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:7:5-79
+10-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:7:22-77
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:8:5-80
+11-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:8:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:9:5-66
+12-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:9:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:10:5-64
+13-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:10:22-62
+14
+15    <application
+15-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:12:5-50:19
+16        android:allowBackup="true"
+16-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:13:9-35
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:14:9-65
+18        android:fullBackupContent="@xml/backup_rules"
+18-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:15:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:16:9-43
+20        android:label="@string/app_name"
+20-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:17:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:18:9-54
+22        android:supportsRtl="true"
+22-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:19:9-35
+23        android:theme="@style/Theme.ImagePicker"
+23-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:20:9-49
+24        tools:targetApi="31" >
+24-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:21:9-29
+25        <activity
+25-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:22:9-30:20
+26            android:name="com.example.imagepicker.MainActivity"
+26-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:23:13-41
+27            android:exported="true" >
+27-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:24:13-36
+28            <intent-filter>
+28-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:25:13-29:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:26:17-69
+29-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:26:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:28:17-77
+31-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:28:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:31:9-32:39
+35            android:name="com.example.imagepicker.ResultActivity"
+35-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:31:19-72
+36            android:exported="false" />
+36-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:32:13-37
+37        <activity
+37-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:34:9-35:45
+38            android:name="com.example.imagepicker.ImagePicker"
+38-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:34:19-69
+39            android:exported="false" />
+39-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:35:19-43
+40
+41        <provider
+41-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:37:9-49:20
+42            android:name="androidx.core.content.FileProvider"
+42-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:39:13-62
+43            android:authorities="com.example.imagepicker.fileprovider"
+43-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:38:13-71
+44            android:exported="false"
+44-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:41:13-37
+45            android:grantUriPermissions="true" >
+45-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:40:13-47
+46            <meta-data
+46-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:43:13-47:25
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:44:17-67
+48                android:resource="@xml/file_paths" >
+48-->D:\ImagePicker\imagepicker\src\main\AndroidManifest.xml:45:17-51
+49            </meta-data>
+50        </provider>
+51    </application>
+52
+53</manifest>

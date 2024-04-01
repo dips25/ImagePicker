@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.imagepicker-release-30:/mipmap-mdpi-v4/ic_launcher_round.webp",
+        "source": "com.example.imagepicker-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.imagepicker-release-30:/mipmap-mdpi-v4/ic_launcher.webp",
+        "source": "com.example.imagepicker-main-31:/mipmap-mdpi/ic_launcher.webp"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.imagepicker-release-30:/xml/data_extraction_rules.xml",
+        "source": "com.example.imagepicker-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.imagepicker-release-30:/xml/file_paths.xml",
+        "source": "com.example.imagepicker-main-31:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.imagepicker-release-30:/xml/backup_rules.xml",
+        "source": "com.example.imagepicker-main-31:/xml/backup_rules.xml"
+    }
+]

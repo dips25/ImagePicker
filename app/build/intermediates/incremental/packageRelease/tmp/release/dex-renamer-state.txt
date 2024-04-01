@@ -1,0 +1,4 @@
+#Mon Apr 01 14:28:37 IST 2024
+base.0=D\:\\ImagePicker\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

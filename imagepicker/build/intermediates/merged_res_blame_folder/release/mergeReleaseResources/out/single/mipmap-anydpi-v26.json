@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.imagepicker-release-30:/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "source": "com.example.imagepicker-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.imagepicker-release-30:/mipmap-anydpi-v26/ic_launcher.xml",
+        "source": "com.example.imagepicker-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

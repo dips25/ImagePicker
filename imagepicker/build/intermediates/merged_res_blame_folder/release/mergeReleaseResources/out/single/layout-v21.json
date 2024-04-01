@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.imagepicker-release-30:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.example.imagepicker-core-1.9.0-7:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.example.imagepicker-release-30:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.example.imagepicker-core-1.9.0-7:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.example.imagepicker-release-30:/layout-v21/notification_action.xml",
+        "source": "com.example.imagepicker-core-1.9.0-7:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.example.imagepicker-release-30:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.example.imagepicker-core-1.9.0-7:/layout-v21/notification_action_tombstone.xml"
+    }
+]
